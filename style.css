@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+section {
+    width: 250px;
+    margin: auto;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+div#tela {
+    width: 240px;    
+    height: 120px;
+} 
+
+div.botao {
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
