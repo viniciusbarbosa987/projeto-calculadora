@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+#tela {
+    height: 150px;
+}
+
+#area-botoes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#area-botoes .botao{
+    width: 100px;
+    height: 70px;
+    background-color: aqua;
+}
