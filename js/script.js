@@ -12,7 +12,7 @@ function apagarCaractere(txt) {
     return resultado
 }
 
-function funcionamentoCalculadora(valor) {
+function funcionamentoCalculadora(valor) { //RESOLVER PROBLEMA DAS DUAS VÍRGULAS NUM MESMO NÚMERO
     function exibirNaTela(valor) {
         
         if (tela.innerHTML == 0 && typeof(valor) === 'number') {
@@ -30,15 +30,16 @@ function funcionamentoCalculadora(valor) {
         }
 
     }
-    
-    function operação(valor) {
-        identificadorDeExpressão.push(valor)
-        
-        
+
+    function operação() {
+        //Fazer as operações
     }
 
     exibirNaTela(valor)
-    operação(valor)
+    
+    identificadorDeExpressão.push(valor)
+
+    
 }
 
 
